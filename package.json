@@ -1,21 +1,53 @@
 {
+  "homepage": "https://github.com/TirlochaN-user/SMART_NCDS",
   "name": "kgridui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@date-io/date-fns": "^1.3.6",
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/pickers": "^3.2.10",
+    "@material/react-tab": "^0.15.0",
+    "@material/react-tab-bar": "^0.15.0",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "create-react-class": "^15.7.0",
+    "date-fns": "^2.0.0-alpha.7",
+    "env-cmd": "^10.1.0",
+    "fhirclient": "^2.3.10",
+    "html-react-parser": "^0.10.1",
+    "material-design-icons": "^3.0.1",
+    "mdbreact": "^4.25.5",
+    "moment": "^2.24.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.0.0",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-bootstrap-form": "^0.1.4-beta6",
+    "react-bootstrap-range-slider": "^0.3.1",
+    "react-datepicker": "^2.14.1",
     "react-dom": "^17.0.1",
+    "react-flexbox-grid": "^2.1.2",
+    "react-radio-group": "^3.0.3",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "4.0.1",
+    "react-sliding-pane": "^4.0.1",
+    "react-tabs": "^3.1.0",
+    "react-widgets": "^4.5.0",
+    "react-widgets-date-fns": "^4.1.0",
+    "react-widgets-moment": "^4.0.28",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +66,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

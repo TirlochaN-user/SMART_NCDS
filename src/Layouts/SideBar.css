@@ -1,0 +1,87 @@
+.side-bar{
+    background-color: #0d9edb;
+    height: 100%;
+    width: 300px;
+    /* width:19em */
+    /* color: white; */
+    left: 0;
+    top:0;
+    bottom: 0;
+    position: fixed;
+    opacity: 1;
+    padding-top: 90px;
+    z-index: 100;
+    
+  }
+
+.side-bar .btn{
+    /* width: 100%; */
+    color: white;
+    padding-top: 12px;
+    /* text-align: left; */
+    padding-left:14% ;
+ 
+}
+
+.nav_link:hover {
+    background-color: #005A98;
+    cursor: pointer;
+    }
+    
+/* .side-bar .btn span
+{
+    margin-left: 9%;
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 112%;
+} */
+.side-bar .btn .nlink{
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: x-large;
+}
+
+.side-bar .btn .disabled{
+    text-decoration: none;
+    color: #777a78;
+    font-size: x-large;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width:770px){
+    .side-bar{
+        width: 100%;
+        height: auto;
+        position: sticky;
+        margin-top:2%;
+        padding-top:10%;
+        display: none;
+        margin-bottom: 0;
+        
+    }
+    
+    .side-bar .btn{
+        padding-left: 10%;
+    }
+}
+
+/* @media screen and (max-width:380px){
+    .side-bar{
+        width: 100%;
+        position: relative;
+        margin-top:4rem;
+        padding-top:0.4%;
+        height:14rem
+    }
+}
+
+@media screen and (max-width:415px){
+    .side-bar{
+        width: 100%;
+        position: relative;
+        margin-top:4rem;
+        padding-top:0.4%;
+        height:13.5rem
+    }
+} */
